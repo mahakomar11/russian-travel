@@ -1,0 +1,12 @@
+.place__image {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 720px) {
+  .place__image {
+    padding: 0;
+  }
+}

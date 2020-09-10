@@ -1,0 +1,16 @@
+.cover {
+  height: calc(100vw * 0.925 / 1.6);
+  background-image: url("../../images/cover__trains.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    height: calc(100vw / 1.6);
+  }
+}
