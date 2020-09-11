@@ -1,6 +1,7 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   padding: 0 48px;
   width: 100%;
@@ -11,14 +12,12 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid  {
-    grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     padding: 0 24px;
   }
@@ -26,7 +25,6 @@
 
 @media screen and (max-width: 540px) {
   .photo-grid {
-    grid-template-columns: repeat(1, 1fr);
     gap: 12px;
     padding: 0 16px;
   }
