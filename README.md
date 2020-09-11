@@ -7,7 +7,7 @@
 
 **Интро**
 
-Одностраничный сайт о путешествиях по России.
+Одностраничный сайт о путешествиях по России. Ссылка: [mahakomar11.github.io/russian-travel/](https://mahakomar11.github.io/russian-travel/)
 
 **Технологии**
 
